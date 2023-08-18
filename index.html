@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>計算</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>計算</h1>
+    
+    <form id="calculator-form">
+        <label for="num1">最初の数値:</label>
+        <input type="number" step="any" id="num1" name="num1" required>
+        
+        <br>
+        
+        <label for="num2">次の数値:</label>
+        <input type="number" step="any" id="num2" name="num2" required>
+        
+        <br>
+        
+        <button type="submit">計算する</button>
+    </form>
+    
+    <h2>計算結果:</h2>
+    <p id="result"></p>
+
+    <!-- 外部のJavaScriptファイルを読み込む -->
+    <script src="index.js"></script>
+</body>
+</html>
